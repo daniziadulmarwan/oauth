@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/custom/main.css" />
+
+    <!-- slick -->
+    <link rel="stylesheet" href="/assets/slick/slick/slick.css" />
+    <link rel="stylesheet" href="/assets/slick/slick/slick-theme.css" />
+
+    <!-- rubik fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- logo -->
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <!-- title -->
+    <title>Drone Shop</title>
+  </head>
+  <body>
+    <!-- START: Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="margin-top: 35px">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 18px">
+          <img src="/assets/images/logo.png" width="59" />
+          DroneshopID
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-lg-auto mx-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+
+          <!-- START: Button -->
+          <div>
+            <a href="#" class="my-2 mr-lg-2 d-block d-lg-inline text-black-50"
+              >Sign In</a
+            >
+            <a href="#" class="btn btn-primary rounded-pill px-4">Register</a>
+          </div>
+          <!-- END: Button -->
+        </div>
+      </div>
+    </nav>
+    <!-- END: Navbar -->
+
+    <!-- START: Hero -->
+    <div class="container" style="margin-top: 138px">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="/assets/images/discount.png" width="219" height="36" />
+          <h1
+            style="
+              color: #0a1329;
+              max-width: 470px;
+              margin-top: 16px;
+              font-size: 66px;
+            "
+            class="font-weight-bold"
+          >
+            Representing <br />
+            Drone Light
+          </h1>
+          <p
+            style="
+              margin-top: 26px;
+              color: rgba(10, 19, 41, 0.55);
+              font-size: 20px;
+              line-height: 33px;
+            "
+            id="typing"
+          >
+            Look up the sky and beautiful world with simple navigation. Just
+            record and get a lot memories to share, lightly and fast like a
+            lightning.
+          </p>
+          <a
+            href="#"
+            class="btn btn-primary rounded-pill text-uppercase px-4"
+            style="margin-top: 52px"
+            >Get Now</a
+          >
+        </div>
+        <div class="col">
+          <img src="/assets/images/hero_image.png" width="841" height="447" />
+        </div>
+      </div>
+    </div>
+    <!-- END: Hero -->
+
+    <!-- START: Content One -->
+    <section class="content-one" style="margin-top: 190px">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col text-center text-white"
+            style="
+              background-image: url('/assets/images/ultra_light.png');
+              background-size: cover;
+              min-height: 710px;
+              padding-top: 131px;
+            "
+          >
+            <h3 style="font-size: 48px; font-weight: 700; line-height: 56px">
+              Ultra Light
+            </h3>
+            <p
+              style="
+                font-size: 28px;
+                font-weight: normal;
+                line-height: 50px;
+                color: rgba(255, 255, 255, 0.75);
+                margin-top: 36px;
+              "
+            >
+              Drone move faster with weighing <br />
+              component <span class="font-weight-bold">under 200 g</span>
+            </p>
+          </div>
+          <div
+            class="col text-center text-white"
+            style="
+              background-image: url('/assets/images/ultra_dark.png');
+              background-size: cover;
+              min-height: 710px;
+              padding-top: 131px;
+            "
+          >
+            <h3 style="font-size: 48px; font-weight: 700; line-height: 56px">
+              Best Resulotion
+            </h3>
+            <p
+              style="
+                font-size: 28px;
+                font-weight: normal;
+                line-height: 50px;
+                color: rgba(255, 255, 255, 0.8);
+                margin-top: 36px;
+              "
+            >
+              Take a beautiful view with best camera <br />
+              up to <span class="font-weight-bold">4K Camera Resolution</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Content One -->
+
+    <!-- START: Benefit -->
+    <section class="benefit mb-5" style="height: 1027px; background: #fff">
+      <div class="content" style="height: 791px; background: #e1e6f5">
+        <div class="container">
+          <h3
+            style="
+              padding-top: 110px;
+              font-size: 48px;
+              color: #0a1329;
+              line-height: 57px;
+            "
+            class="text-center font-weight-bold"
+          >
+            Why Drone Light?
+          </h3>
+          <p
+            style="
+              margin-top: 31px;
+              max-width: 645px;
+              color: rgba(10, 19, 41, 0.55);
+              font-size: 24px;
+              line-height: 44px;
+            "
+            class="text-center mx-auto"
+          >
+            We provide a best self drone easy to use and operate. With auto
+            pilot, the device will take a beautiful view for the best of flying
+            operation.
+          </p>
+          <!-- START: Category -->
+          <div
+            style="width: 718px; margin-top: 60px"
+            class="mx-auto d-flex justify-content-lg-between"
+          >
+            <!-- START: Card 1 -->
+            <div class="text-center">
+              <h1
+                style="font-size: 36px; line-height: 43px; color: #0a1329"
+                class="font-weight-bold"
+              >
+                4K
+              </h1>
+              <p
+                style="
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: rgba(10, 19, 41, 0.55);
+                "
+              >
+                Camera <br />
+                Resolution
+              </p>
+            </div>
+            <!-- END: Card 1 -->
+
+            <!-- START: Card 2 -->
+            <div class="text-center">
+              <h1
+                style="font-size: 36px; line-height: 43px; color: #0a1329"
+                class="font-weight-bold"
+              >
+                2 TB
+              </h1>
+              <p
+                style="
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: rgba(10, 19, 41, 0.55);
+                "
+              >
+                Storage <br />
+                Capacity
+              </p>
+            </div>
+            <!-- END: Card 2 -->
+
+            <!-- START: Card 3 -->
+            <div class="text-center">
+              <h1
+                style="font-size: 36px; line-height: 43px; color: #0a1329"
+                class="font-weight-bold"
+              >
+                60 m/s
+              </h1>
+              <p
+                style="
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: rgba(10, 19, 41, 0.55);
+                "
+              >
+                Super <br />
+                Max Speed
+              </p>
+            </div>
+            <!-- END: Card 3 -->
+
+            <!-- START: Card 4 -->
+            <div class="text-center">
+              <h1
+                style="font-size: 36px; line-height: 43px; color: #0a1329"
+                class="font-weight-bold"
+              >
+                30 mins
+              </h1>
+              <p
+                style="
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: rgba(10, 19, 41, 0.55);
+                "
+              >
+                Long Flight <br />
+                Time
+              </p>
+            </div>
+            <!-- END: Card 4 -->
+          </div>
+          <!-- END: Category -->
+
+          <div class="text-center" style="margin-top: 63px">
+            <img
+              src="/assets/images/features_cut_bg.png"
+              width="468"
+              height="476"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Benefit -->
+
+    <!-- START: Video -->
+    <section
+      class="video"
+      style="height: 1020px; background: #fff; margin-top: -50px"
+    >
+      <h1
+        style="
+          padding-top: 119px;
+          font-size: 48px;
+          line-height: 65px;
+          color: #0a1329;
+        "
+        class="text-center font-weight-bold"
+      >
+        4K video shot on our <br />
+        Drone Light
+      </h1>
+
+      <div class="text-center" style="margin-top: 60px; position: relative">
+        <img src="/assets/images/mask_group.png" width="1170" height="658" />
+        <div
+          style="
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 81px;
+            height: 81px;
+            cursor: pointer;
+          "
+          class="button-play"
+        >
+          <img src="/assets/images/play_button.svg" class="text-center" />
+        </div>
+      </div>
+    </section>
+    <!-- END: Video -->
+
+    <!-- START: New Product -->
+    <section class="new-product" style="background: #fff; padding: 44px 0">
+      <div class="container">
+        <h1
+          style="font-size: 48px; line-height: 57px; color: #0a1329"
+          class="font-weight-bold text-center"
+        >
+          New Product
+        </h1>
+        <p
+          style="
+            font-size: 22px;
+            line-height: 34px;
+            margin-top: 31px;
+            width: 613px;
+            color: rgba(10, 19, 41, 0.55);
+          "
+          class="mx-auto text-center"
+        >
+          New innovation, best quality than before. <br />
+          make every moment flying operation become unforgettable.
+        </p>
+
+        <!-- START: Carousel -->
+        <div style="margin-top: 59px; margin-bottom: 63px">
+          <div class="row multiple-items">
+            <% for( let i = 0; i < datas.length; i++ ) { %>
+            <div class="col-md-4">
+              <div class="card" style="border-radius: 20px">
+                <img
+                  src="http://localhost:3000/<%= datas[i].imageUrl %>"
+                  class="card-img-top"
+                  style="padding: 30px"
+                  height="240"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    class="card-title"
+                    style="
+                      font-size: 30px;
+                      color: #0a1329;
+                      line-height: 36px;
+                      font-weight: 500;
+                    "
+                  >
+                    Mini Drone
+                  </h5>
+                  <h6
+                    style="
+                      font-size: 32px;
+                      line-height: 38px;
+                      color: #0a1329;
+                      margin: 20px 0;
+                    "
+                    class="font-weight-bold"
+                  >
+                    Rp 18.755.000
+                  </h6>
+                  <p
+                    class="card-text"
+                    style="font-size: 20px; line-height: 36px; font-weight: 300"
+                  >
+                    Powerful camera drone at an affordable price range. Camera
+                    up to 4K resolution, optimize shots automatically.
+                  </p>
+                  <div>
+                    <a
+                      href="#"
+                      class="btn btn-primary rounded-pill"
+                      style="
+                        background: #315bc7;
+                        outline: #315bc7;
+                        border: #315bc7;
+                        margin-top: 30px;
+                        padding: 18px 45px;
+                      "
+                      >Get Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% } %>
+          </div>
+        </div>
+        <!-- END: Carousel -->
+      </div>
+    </section>
+    <!-- END: New Product -->
+
+    <!-- START: Testimonial -->
+    <section
+      class="testimonial"
+      style="margin-top: 83px; padding-bottom: 116px"
+    >
+      <div class="container-fluid">
+        <h1
+          style="
+            font-size: 64px;
+            line-height: 104px;
+            color: #0a1329;
+            margin-left: 155px;
+          "
+        >
+          What Our “Pilots” <br />
+          Are Saying
+        </h1>
+
+        <div class="carousel mx-auto" style="width: 1170px; margin-top: 70px">
+          <div class="row multiple-items">
+            <!-- START: Testimoni 1 -->
+            <div class="col-md-4" style="min-width: 370px">
+              <div
+                class="card"
+                style="border-radius: 10px; padding: 30px; font-size: 16px"
+              >
+                <p style="font-size: 16px; line-height: 30px; color: #0a1329">
+                  “With high resolution camera, picture become clear and
+                  beautiful. It’s so easy to operate drone.”
+                </p>
+                <div style="margin-top: 30px" class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="/assets/images/people.png"
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div style="margin-left: 30px">
+                    <h3
+                      style="font-size: 20px; line-height: 24px"
+                      class="font-weight-bold"
+                    >
+                      Lucas Walker
+                    </h3>
+                    <p
+                      style="
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #818181;
+                        margin-top: 10px;
+                      "
+                    >
+                      Content Creator
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- START: Testimoni 1 -->
+
+            <!-- START: Testimoni 2 -->
+            <div class="col-md-4" style="width: 370px">
+              <div
+                class="card"
+                style="border-radius: 10px; padding: 30px; font-size: 16px"
+              >
+                <p style="font-size: 16px; line-height: 30px; color: #0a1329">
+                  “Taking high view video become easy and faster. Battery
+                  perfomance really helping for making film.”
+                </p>
+                <div style="margin-top: 30px" class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="/assets/images/yarou.png"
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div style="margin-left: 30px">
+                    <h3
+                      style="font-size: 20px; line-height: 24px"
+                      class="font-weight-bold"
+                    >
+                      Jessica Obrien
+                    </h3>
+                    <p
+                      style="
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #818181;
+                        margin-top: 10px;
+                      "
+                    >
+                      Director Film
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- START: Testimoni 2 -->
+
+            <!-- START: Testimoni 3 -->
+            <div class="col-md-4">
+              <div
+                class="card"
+                style="border-radius: 10px; padding: 30px; font-size: 16px"
+              >
+                <p style="font-size: 16px; line-height: 30px; color: #0a1329">
+                  “Making video content for my trip vlog so powerful and
+                  wonderful. Love the video quality.”
+                </p>
+                <div style="margin-top: 30px" class="d-flex align-items-center">
+                  <div>
+                    <img src="/assets/images/baka.png" width="70" height="70" />
+                  </div>
+                  <div style="margin-left: 30px">
+                    <h3
+                      style="font-size: 20px; line-height: 24px"
+                      class="font-weight-bold"
+                    >
+                      Lisa Miller
+                    </h3>
+                    <p
+                      style="
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #818181;
+                        margin-top: 10px;
+                      "
+                    >
+                      Content WQCreator
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- START: Testimoni 3 -->
+
+            <!-- START: Testimoni 4 -->
+            <div class="col-md-4" style="min-width: 370px">
+              <div
+                class="card"
+                style="border-radius: 10px; padding: 30px; font-size: 16px"
+              >
+                <p style="font-size: 16px; line-height: 30px; color: #0a1329">
+                  “With high resolution camera, picture become clear and
+                  beautiful. It’s so easy to operate drone.”
+                </p>
+                <div style="margin-top: 30px" class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="/assets/images/people.png"
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div style="margin-left: 30px">
+                    <h3
+                      style="font-size: 20px; line-height: 24px"
+                      class="font-weight-bold"
+                    >
+                      Lucas Walker
+                    </h3>
+                    <p
+                      style="
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #818181;
+                        margin-top: 10px;
+                      "
+                    >
+                      Content Creator
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- START: Testimoni 4 -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: Testimonial -->
+
+    <!-- START: Footer -->
+    <footer
+      style="background: #0a1329; padding-top: 101px; padding-bottom: 106px"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- START: Pertama -->
+          <div class="col" style="width: 263px">
+            <div class="d-flex align-items-center">
+              <img src="/assets/images/logo_white.svg" width="68" height="32" />
+              <h5
+                class="ml-2 font-weight-bold"
+                style="font-size: 26px; line-height: 31px; color: #fff"
+              >
+                DroneshopID
+              </h5>
+            </div>
+            <p
+              style="
+                font-size: 18px;
+                line-height: 27px;
+                font-weight: 300;
+                color: #fff;
+                margin-top: 25px;
+              "
+            >
+              Look up the sky and beautiful <br />
+              world easily.
+            </p>
+            <!-- START: Sosial Media -->
+            <div style="margin-top: 34px; width: 224px">
+              <a href="" class="icon-link">
+                <img src="/assets/icons/social-facebook.svg" />
+              </a>
+              <a href="" style="margin-left: 10px" class="icon-link">
+                <img src="/assets/icons/social-instagram.svg" />
+              </a>
+              <a href="" style="margin-left: 10px" class="icon-link">
+                <img src="/assets/icons/social-twitter.svg" />
+              </a>
+              <a href="" style="margin-left: 10px" class="icon-link">
+                <img src="/assets/icons/social-youtube.svg" />
+              </a>
+            </div>
+            <!-- END: Sosial Media -->
+          </div>
+          <!-- END: Pertama -->
+
+          <!-- START: Kedua -->
+          <div class="col" style="margin-left: 135px">
+            <h5
+              style="font-size: 18px; line-height: 21px"
+              class="font-weight-bold text-white"
+            >
+              Explore
+            </h5>
+            <div class="link d-flex flex-column" style="margin-top: 36px">
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                "
+                href=""
+                >Our Services</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Specification</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Refund</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Pricelist</a
+              >
+            </div>
+          </div>
+          <!-- END: Kedua -->
+
+          <!-- START: Ketiga -->
+          <div class="col">
+            <h5
+              style="font-size: 18px; line-height: 21px"
+              class="font-weight-bold text-white"
+            >
+              Account
+            </h5>
+            <div class="link d-flex flex-column" style="margin-top: 36px">
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                "
+                href=""
+                >My Account</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Top Benefit</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >How-to Tutorials</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Moment</a
+              >
+            </div>
+          </div>
+          <!-- END: Ketiga -->
+
+          <!-- START: Keempat -->
+          <div class="col">
+            <h5
+              style="font-size: 18px; line-height: 21px"
+              class="font-weight-bold text-white"
+            >
+              Office
+            </h5>
+            <div class="link d-flex flex-column" style="margin-top: 36px">
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                "
+                href=""
+                >+022 123 4567</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >Bandung, Indonesia</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >No. 2 (Autodrone)</a
+              >
+              <a
+                style="
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-top: 21px;
+                "
+                href=""
+                >support@autodrone.id</a
+              >
+            </div>
+          </div>
+          <!-- END: Keempat -->
+        </div>
+      </div>
+    </footer>
+    <!-- END: Footer -->
+
+    <!-- script -->
+    <script src="/assets/jquery/jquery.min.js"></script>
+    <script src="/assets/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/slick/slick/slick.min.js"></script>
+    <script src="/assets/typed/lib/typed.min.js"></script>
+    <script src="/assets/custom/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".multiple-items").slick({
+          dots: true,
+          infinite: false,
+          arrows: true,
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1024,
+              dots: true,
+              settings: {
+                slidesToShow: 3,
+                infinite: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              dots: true,
+              settings: {
+                infinite: false,
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                infinite: false,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
